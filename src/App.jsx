@@ -534,7 +534,7 @@ const projectsData = {
         </motion.div>
       </section>
         
-        {/* CERTIFICATES (6 BOXES) */}
+        {/* CERTIFICATES */}
         <section id="certificates" className="mt-32">
         <motion.h2
           variants={fadeUp}
@@ -561,6 +561,7 @@ const projectsData = {
             { title: "Intermediate SQL", img: "/Gambar Sertif Inter SQL.png", pdf: "/Sertif Intermediate SQL.pdf" },
             { title: "Basic CSS", img: "/Gambar Sertif Basic CSS.png", pdf: "/Sertif Basic CSS.pdf" },
             { title: "Basic Problem Solving", img: "/Gambar Sertif Basic Problem Solving.png", pdf: "/Sertif Basic Problem Solving.pdf" },
+            { title: "Intermediate Problem Solving", img: "/Gambar Sertif Intermediate Problem Solving.png", pdf: "/Sertif Intermediate Problem Solving.pdf" },
           ].map((c, i) => (
             <motion.a
               key={i}
